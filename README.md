@@ -1,3 +1,3 @@
 # Blog
 
-This is my blog.
+This is the blog of Paco G&oacute;mez.

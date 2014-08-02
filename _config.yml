@@ -6,19 +6,19 @@ highlighter:      pygments
 permalink:        pretty
 
 # Setup
-title:            DFW MAD
-tagline:          'A journey'
-description:      'A reserved <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url:              http://lanyon.getpoole.com
-
-author:
-  name:           'Paco Gomez'
-  url:            http://pacogomez.com
-
+title:            Paco G&oacute;mez
+tagline:          'blog'
+description:      'Paco G&oacute;mez blog.'
+url:              http://blog.pacogomez.com
+baseurl:          '/'
 paginate:         5
 
+author:
+  name:           'Paco G&oacute;mez'
+  url:            https://pacogomez.com
+
 # Custom vars
-version:          2.0.0
+version:          1.0.0
 
 github:
   repo:           https://github.com/poole/lanyon

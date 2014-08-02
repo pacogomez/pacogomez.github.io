@@ -3,6 +3,6 @@ layout: page
 title: About
 ---
 
-This is the blog of Paco G&oacute;mez.
+Paco G&oacute;mez blog.
 
 Thanks for reading!
