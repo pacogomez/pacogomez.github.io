@@ -3,10 +3,6 @@ layout: page
 title: About
 ---
 
-Paco G&oacute;mez blog.
+Paco G&oacute;mez is Senior Solution Architect at VMware vCloud Air.
 
-## Disclaimer
-
-The views and opinions expressed on this blog are my own and does not reflect the views and opinions of my employer.
-
-Thanks for reading!
+<a href="https://linkedin.com/in/pacogomez"><img src="../public/social-051_linkedin.png"></a> <a href="https://twitter.com/pacogomez"><img src="../public/social-045_twitter.png"></a>
