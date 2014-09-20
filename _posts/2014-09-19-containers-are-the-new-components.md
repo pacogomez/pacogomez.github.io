@@ -7,7 +7,7 @@ A few weeks ago I was trying to summarize my initial experience with containers 
 
 <i>"In a way"</i>, I told my friend, <i>"the EJB container has become the new component and the container of those components is docker and the ecosystem of packaging and runtime management tools".</i>
 
-The analogy immediatly resonated with him, and we both draw similarities in the different evolutions of distributed systems: Tuxedo transactions, CORBA objects, Java EJBs, SOA and now Docker containers.
+The analogy immediatly resonated with him, and we both draw similarities in the different evolutions of distributed systems: Tuxedo transactions, CORBA objects, Java EJBs, SOA services and now Docker containers.
 
 One could be tempted to say that history repeats itself and these concepts were already invented some time ago. I prefer to think about it as an iterative process with incremental improvements on each iteration.
 
