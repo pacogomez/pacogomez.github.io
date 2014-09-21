@@ -2,7 +2,6 @@
 layout: post
 title: Containers Are The New Components
 comments: true
-permalink: containers-are-the-new-components
 ---
 
 A few weeks ago I was trying to summarize my initial experience with containers to a friend. We know each other from the <a href="http://en.wikipedia.org/wiki/BEA_Systems">BEA Systems</a> times, back in the late 90s, and we have a similar background on middleware and distributed systems. Using that common experience, I thought that a good analogy would be to compare containers with EJBs, with a new twist on the term "container".
