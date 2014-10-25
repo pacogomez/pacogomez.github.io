@@ -82,6 +82,14 @@ Docker is now installed on the machine. Let's verify that the installation has w
     22093c35d77b: Pull complete 
     5506de2b643b: Pull complete 
     Status: Downloaded newer image for ubuntu:latest
+    
+    root@9dd0e956fed0:/# ps aux
+    USER   PID %CPU %MEM    VSZ   RSS TTY  STAT START   TIME COMMAND
+    root     1  0.1  0.1  18168  1880 ?    Ss   23:02   0:00 /bin/bash
+    root    20  0.0  0.1  15568  1124 ?    R+   23:02   0:00 ps aux
+    root@9dd0e956fed0:/# exit
+    
+    root@ub1:~#     
 
 Type "exit" to exit. The virtual machine on vCloud Air is now ready to run containers.
 
