@@ -2,7 +2,7 @@
 layout: post
 title: Running Containers on vCloud Air
 comments: true
-permalink: /running-containers-on-vcloud-air.html
+permalink: /running-containers-on-vcloud-air
 ---
 
 In this post I will describe how to run containers on <a href="http://vcloud.vmware.com">VMware vCloud Air</a>. I will use the Ubuntu template available in the catalog. Since the base image needs additional packages, it is important to make sure the new virtual machine has Internet access. 
