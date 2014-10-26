@@ -42,7 +42,7 @@ The last step is to configure the firewall to allow outbound traffic from any ma
 
 ![FW outbound rule](../public/fw-rule-1.png)
 
-... and inbound traffic to port 22. Note the destination IP is one the public IPs assigned to the virtual Data Center, not the one assigned to the new virtual machine.
+... and inbound traffic to port 22. Note the destination IP is one of the public IPs assigned to the virtual Data Center, not the one assigned to the new virtual machine.
 
 ![FW inbound rule](../public/fw-rule-2.png)
 
