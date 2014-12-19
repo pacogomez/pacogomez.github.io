@@ -5,7 +5,7 @@ comments: true
 permalink: /vcloud-air-command-line-interface
 ---
 
-As a cloud provider, <a href="http://vcloud.vmware.com">VMware vCloud Air</a> has a rich set of functionality available to users through the [Portal](http://pubs.vmware.com/vca/index.jsp#com.vmware.vca.ug.doc/GUID-5001DAA0-E7F7-41FE-B137-AE673A5DD192.html) and the [API](http://pubs.vmware.com/vca/index.jsp#com.vmware.vca.api.doc/GUID-0BE81A1E-1EDA-4020-9969-A355EC6D9640.html"). With the release of the [vCloud Air Command Line Interface](https://github.com/vmware/vca-cli) (vca-cli), users have now another method to access the service and leverage the benefits of scripting for automation and documentation purposes.
+As a cloud provider, [VMware vCloud Air](http://vcloud.vmware.com) has a rich set of functionality available to users through the [Portal](http://pubs.vmware.com/vca/index.jsp#com.vmware.vca.ug.doc/GUID-5001DAA0-E7F7-41FE-B137-AE673A5DD192.html) and the [API](http://pubs.vmware.com/vca/index.jsp#com.vmware.vca.api.doc/GUID-0BE81A1E-1EDA-4020-9969-A355EC6D9640.html). With the release of the [vCloud Air Command Line Interface](https://github.com/vmware/vca-cli) (vca-cli), users have now another method to access the service and leverage the benefits of scripting for automation and documentation purposes.
 
 The **vca-cli** is a cross-platform tool that exposes the rich vCloud Air API with a command line interface. The following entry is an introduction on how to install and use **vca-cli**.
 
