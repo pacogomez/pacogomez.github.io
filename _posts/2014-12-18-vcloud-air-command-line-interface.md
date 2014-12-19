@@ -186,7 +186,7 @@ It is possible to add a NAT rule (DNAT or SNAT):
     |     65541 | True      | DNAT   | 192.240.158.81   | 23              | 192.168.109.2   | 22                | tcp        | d0p1-ext     |
     
 
-I hope you will find **vca-cli** useful. The project is under Open Source Apache2 license and on a public GitHub [repository](https://github.com/vmware/vca-cli), so you are welcome to take a look and contribute. On futures posts, I will cover other features of the **vca-cli**.
+I hope you will find **vca-cli** useful. The project is under Open Source Apache2 license and on a public GitHub [repository](https://github.com/vmware/vca-cli). You are welcome to take a look and contribute. On future posts, I will cover other features of **vca-cli**.
 
 
 
