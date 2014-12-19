@@ -130,7 +130,7 @@ At any given time, you can check the status of the **vca-cli** and the session w
     
     
 
-One of the most useful features is the ability to work with the datacenter edge gateway. The **nat** subcommand lists the NAT rules currently defined in the edge gateway:
+One of the most useful features is the ability to work with the **datacenter edge gateway**. The **nat** subcommand lists the NAT rules currently defined in the **edge gateway**:
 
     
     $ vca nat
