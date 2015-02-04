@@ -13,7 +13,7 @@ The guide assumes the following pre-requisites:
 * [vCloud Air Command Line Interface](https://github.com/vmware/vca-cli), vca-cli (version 0.9)
 * [ovftool](https://www.vmware.com/support/developer/ovf/)
 
-In a nutshell, the process consists of:
+In a nutshell, the process consists of the following steps:
 
 1. download the CoreOS OVA to the local computer and upload it to vCloud Air as a template
 2. create a CoreOS VM based on the template
