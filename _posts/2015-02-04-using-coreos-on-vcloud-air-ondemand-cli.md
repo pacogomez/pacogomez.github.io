@@ -10,8 +10,10 @@ permalink: /coreos-vcloud-air-on-demand
 The guide assumes the following pre-requisites:
 
 * An account on [vCloud Air On Demand](http://vcloud.vmware.com), with a virtual data center created in one of the available instances (you can sign up and get $300 credit)
-* [vCloud Air Command Line Interface](https://github.com/vmware/vca-cli), vca-cli (version 0.9)
+* [vCloud Air Command Line Interface](https://github.com/vmware/vca-cli), vca-cli (version 0.9.1)
 * [ovftool](https://www.vmware.com/support/developer/ovf/)
+
+We are using a vCloud Air On Demand account, but these instructions can also be applied to subscription-based vCloud Air accounts and to vCloud Air Network (*vCloud Director*), with some modifications on how to login to the service. In the next blog post I will describe how to use vca-cli to login to those other types of accounts.
 
 In a nutshell, the process consists of the following steps:
 
@@ -21,12 +23,13 @@ In a nutshell, the process consists of the following steps:
 4. attach the ISO to the VM, boot it up and let CoreOS configure itself
 5. configure the edge gateway to allow SSH access to the CoreOS VM
 
+
 The transfer of the OVA template is a one-time operation. The template can be used to instantiate multiple VMs. 
 
-To install vca-cli version 0.9, run the command below. Please note that the documentation for this release (0.9) has not been updated yet. The documentation on the GitHub site is for the previous version (0.5).
+To install vca-cli version 0.9.1, run the command below. Please note that the documentation for this release (0.9.1) has not been updated yet. The documentation on the GitHub site is for the previous version (0.5).
 
     
-    pip install vca-cli==0.9
+    pip install vca-cli==0.9.1
     
 
 Log in to the vCloud Air account and list the instances available:
