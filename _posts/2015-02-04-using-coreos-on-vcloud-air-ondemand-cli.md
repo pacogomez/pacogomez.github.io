@@ -18,7 +18,7 @@ In a nutshell, the process consists of the following steps:
 1. download the CoreOS OVA to the local computer and upload it to vCloud Air as a template
 2. create a CoreOS VM based on the template
 3. customize a local cloud-config file, create an ISO file and upload it to vCloud Air
-4. attach the ISO to the VM, boot it and let CoreOS configure itself
+4. attach the ISO to the VM, boot it up and let CoreOS configure itself
 5. configure the edge gateway to allow SSH access to the CoreOS VM
 
 The transfer of the OVA template is a one-time operation. The template can be used to instantiate multiple VMs. To install vca-cli version 0.9, run the command below. Please note that the documentation for this release (0.9) has not been updated yet. The documentation on the GitHub site is for the previous version (0.5).
