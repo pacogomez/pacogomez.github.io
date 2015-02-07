@@ -117,7 +117,7 @@ A customization script is a normal shell script that is added to the VM properti
     
 
 
-As a final step, let's configure the NAT rules to allow to SSH into the machine:
+As a final step, let's configure the NAT rule to allow to SSH into the machine:
 
     
     $ vca nat add --rule_type DNAT --original_ip 107.189.93.162 --original_port 422 --translated_ip 192.168.109.4 --translated_port 22 --protocol tcp
