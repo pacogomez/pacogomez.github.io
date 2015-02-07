@@ -143,45 +143,9 @@ And that's all, now SSH into the new VM using the private SSH key:
 
     
     $ ssh -i ~/.ssh/id_rsa_vca ubuntu@107.189.93.162 -p 422
-    The authenticity of host '[107.189.93.162]:422 ([107.189.93.162]:422)' can't be established.
-    RSA key fingerprint is 1c:79:b4:bb:76:22:99:4e:67:03:e1:ff:10:d0:41:98.
-    Are you sure you want to continue connecting (yes/no)? yes
-    Warning: Permanently added '[107.189.93.162]:422' (RSA) to the list of known hosts.
+    ...
     Welcome to Ubuntu 12.04.5 LTS (GNU/Linux 3.13.0-36-generic x86_64)
-    
-     * Documentation:  https://help.ubuntu.com/
-     
-      System information as of Sat Feb  7 05:20:42 UTC 2015
-      
-      System load:  0.0              Processes:           69
-      Usage of /:   9.7% of 9.81GB   Users logged in:     1
-      Memory usage: 6%               IP address for eth0: 192.168.109.4
-      Swap usage:   0%
-      
-      Graph this data and manage this system at:
-        https://landscape.canonical.com/
-        
-      Get cloud support with Ubuntu Advantage Cloud Guest:
-        http://www.ubuntu.com/business/services/cloud
-        
-    0 packages can be updated.
-    0 updates are security updates.
-    
-    
-    Your Hardware Enablement Stack (HWE) is supported until April 2017.
-    
-    
-    The programs included with the Ubuntu system are free software;
-    the exact distribution terms for each program are described in the
-    individual files in /usr/share/doc/*/copyright.
-    
-    Ubuntu comes with ABSOLUTELY NO WARRANTY, to the extent permitted by
-    applicable law.
-    
-    To run a command as administrator (user "root"), use "sudo <command>".
-    See "man sudo_root" for details.
-    
-    Cannot open /dev/port: Permission denied
+    ...
     ubuntu@UbuntuServe-001:~$
         
 
