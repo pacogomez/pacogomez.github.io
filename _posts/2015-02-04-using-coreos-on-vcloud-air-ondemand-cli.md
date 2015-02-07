@@ -141,7 +141,7 @@ Next step is to create the VM and connect it to the network. We are not starting
 
 The IP address is used in the [createiso.sh](../public/createiso.sh) script to generate the *cloud-config* ISO that the CoreOS will use to configure itself. Thanks to William Lam for providing the [original script](http://www.virtuallyghetto.com/2014/11/how-to-quickly-deploy-new-coreos-image-wvmware-tools-on-esxi.html). I have modified it to have CoreOS configure the static IP assigned by vCloud Air. It can be customized to configure additional [services and settings](https://coreos.com/docs/cluster-management/setup/cloudinit-cloud-config/).
 
-Modify the file based on your preferences. At the very least, make sure to specify the IP address and the public ssh key:
+Modify the file based on your preferences. At the very least, make sure to specify the IP address and the public SSH key:
 
     
     # IP Address of CoreOS Instance
@@ -174,7 +174,7 @@ It is required to reboot the VM to activate the changes:
     vca vapp power.on --vapp coreos1
     
 
-The final step is to configure the gateway to be able to ssh into the VM. If you haven't added a public IP address to the virtual data center, you can do it now. The *vca gateway* command will show the allocated IP.
+The final step is to configure the gateway to be able to SSH into the VM. If you haven't added a public IP address to the virtual data center, you can do it now. The *vca gateway* command will show the allocated IP.
 
     
     vca gateway
@@ -198,7 +198,7 @@ Then, disable the firewall and create the corresponding NAT rules. On another po
     |     65539 | True      | DNAT   | 107.189.93.162   | 22              | 192.168.109.2   | 22                | tcp        | d2p3v29-ext  |
     
 
-The VM is now ready to accept ssh connections. Log in to the machine with the private key:
+The VM is now ready to accept SSH connections. Log in to the machine with the private key:
 
     
     ssh -i id_rsa_coreos vcauser@107.189.93.162
