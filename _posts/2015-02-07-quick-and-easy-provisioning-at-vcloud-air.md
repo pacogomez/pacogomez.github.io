@@ -109,7 +109,7 @@ It is possible to script the retrieval of the IP. vca-cli has the option to prin
     "192.168.109.4"
     
 
-A customization script is a normal shell script that is added to the VM properties and then executed by the [VMware tools](http://kb.vmware.com/selfservice/microsites/search.do?language=en_US&cmd=displayKC&externalId=340) running on the Guest OS when the operation *start VM and force customization* is performed. I have created a simple [customization script](../public/add_public_ssh_key.sh) that adds the SSH public key to the *authorized_keys* file of the *ubuntu* user account. We can use vca-cli to upload the script and perform the customization:
+A customization script is a regular shell script that is added to the VM properties and then executed by the [VMware tools](http://kb.vmware.com/selfservice/microsites/search.do?language=en_US&cmd=displayKC&externalId=340) running on the Guest OS when the operation *start VM and force customization* is performed. I have created a simple [customization script](../public/add_public_ssh_key.sh) that adds the SSH public key to the *authorized_keys* file of the *ubuntu* user account. We can use vca-cli to upload the script and perform the customization:
 
     
     $ vca vapp undeploy --vapp ubu
