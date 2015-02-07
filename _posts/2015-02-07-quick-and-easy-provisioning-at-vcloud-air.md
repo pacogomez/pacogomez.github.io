@@ -15,7 +15,7 @@ In this post I will provision an Ubuntu VM and customize it with the VMware Gues
 2. Upload the public SSH key as part of the customization script to add it to the *ubuntu* user. Start the machine and perform the customization.
 3. Create the NAT rule to allow SSH traffic to the machine. 
 
-The machine is ready, simply SSH into and start using it. 
+Now the machine will be ready, simply SSH into and start using it. 
 
 I will make some assumptions, like having a vCloud Air On Demand account (Subscription or vCA-N also applies), a virtual data center has already been created, [vca-cli](https://github.com/vmware/vca-cli) is already installed on your local computer and at least one public IP address has been allocated.
 
