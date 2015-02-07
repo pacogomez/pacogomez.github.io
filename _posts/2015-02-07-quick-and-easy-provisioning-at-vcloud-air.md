@@ -22,7 +22,7 @@ I will make some assumptions, like having a vCloud Air On Demand account (Subscr
 Let's get started, let's login and inspect the virtual data center and catalog:
 
     
-    $ vca login email@company.com --password supersecretpassword
+    $ vca login email@company.com --password supersecretpassword --instance c40ba6b4-c158-49fb-b164-5c66f90344fa
     
     Login successful for profile 'default'
     
