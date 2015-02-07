@@ -180,4 +180,4 @@ After the upgrade is finished, you can save the virtual machine as a template in
 
 ### Summary
 
-vCloud Air On Demand users can provision *SSH-ready* machines in just a few simple vca-cli commands. The process described here can also be used to initialize the VMs with other customization scripts and bootstrap an entire custom environment in a just few minutes.
+vCloud Air On Demand users can provision *SSH-ready* machines in just a few simple vca-cli commands. The process described here can also be used to initialize the VMs with other customization scripts and bootstrap an entire custom environment in just a few minutes.
