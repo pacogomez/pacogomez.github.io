@@ -101,6 +101,12 @@ Now let's create the VM and see what IP address has been assigned by vCA:
 
 The IP assigned is '192.168.109.4'.
 
+It is possible to script the retrieval of the IP. vca-cli has the option to print out tables in JSON format (-j or --json). We can use [jq](http://stedolan.github.io/jq/) to get the IP and save it in a variable to use it in the future:
+
+    
+    $ IP=`vca -j vm -a ubu | jq '.vms[0].IPs[0]'` && echo $IP
+    
+
 A customization script is a normal shell script that is added to the VM properties and then executed by the [VMware tools](http://kb.vmware.com/selfservice/microsites/search.do?language=en_US&cmd=displayKC&externalId=340) running on the Guest OS when the operation *start VM and force customization* is performed. I have created a simple [customization script](../public/add_public_ssh_key.sh) that adds the SSH public key to the *authorized_keys* file of the *ubuntu* user account. We can use vca-cli to upload the script and perform the customization:
 
     
