@@ -43,7 +43,7 @@ Test if the service is ready by entering:
     $ tail /var/log/syslog
     
 
-Now the fun part. With the [vca-cli](https://github.com/vmware/vca-cli), connect to your virtual data center, get the IP address of the syslog server and configure the edge gateway to send the logging messages to the syslog server. Assuming you have the right values for INSTANCEID and VAPPNAME, just enter the following commands:
+Now the fun part. With the [vca-cli](https://github.com/vmware/vca-cli), connect to your virtual data center, get the IP address of the syslog server and configure the edge gateway to send the logging messages to the syslog server. Assuming the values of $INSTANCEID and $VAPPNAME are predefined, just enter the following commands:
 
     
     $ vca login email@company.com --instance ${INSTANCEID}
