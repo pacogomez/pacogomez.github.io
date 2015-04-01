@@ -102,7 +102,7 @@ For convenience, it is possible to pass a file that contains several NAT rules a
 
 The current version of vca-cli can enable (`vca firewall enable`) and disable (`vca firewall disable`) the firewall service . Adding firewall rules will be supported in future versions.
 
-IPsec VPN is another service provided by the edge gateway and available through vca-cli. Creating a VPN tunnel involves enabling VPN, configuring the local endpoint and adding a VPN tunnel. A similar process is executed on the peer side. Here is an example:
+IPsec VPN is another service provided by the edge gateway and available through vca-cli. Creating a VPN tunnel involves enabling VPN, configuring the local endpoint and adding the tunnel itself. A similar process is executed on the peer side. Here is an example:
 
     $ vca vpn enable
     
