@@ -63,6 +63,8 @@ Edit the file `my-input-values.yaml` and modify the following properties:
 | ssh_public_key | SSH public key | use `ssh-keygen`|
 | ssh_private_key_path | local path of the private SSH key | e.g. `~/.ssh/id_rsa` |
 
+To get some of these values, use [vca-cli](https://github.com/vmware/vca-cli/wiki). You might need to allocate a new [public IP address](https://github.com/vmware/vca-cli/wiki/Networking#public-ip-addresses) if you don't have any. The network where the virtual machine will be connected to, needs to have a valid DNS server configured (e.g. 8.8.8.8). This can be configured with vCloud Portal. Alternatively you can create a new network with the right values, using `vca-cli` as described [here](https://github.com/vmware/vca-cli/wiki/Networking#working-with-networks)
+
 ### Orchestrating the Blueprint
 
 When creating blueprints, it is important to make sure the document is correct. Use the `validate` command in `cfy`:
