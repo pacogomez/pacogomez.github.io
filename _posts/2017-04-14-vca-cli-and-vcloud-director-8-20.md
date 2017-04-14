@@ -17,13 +17,13 @@ Start by opening a console and install `vca-cli`:
 
     $ pip install --user vca-cli
 
-That should install the latest version of `vca-cli`. In this version we added the `vcd` command alias, so `vca-cli` can be invoked with using the `vca` or `vcd` commands available after the installation.
+That should install the latest version of `vca-cli` (18 at the time of writing). In this version we added the `vcd` command alias, so `vca-cli` can be invoked with using the `vca` or `vcd` commands available after the installation.
 
     $ vcd --version
 
     vca-cli version 18 (pyvcloud: 16)
 
-If a previous version of `vca-cli` is already installed, upgrade to the latest (18) with:
+If a previous version of `vca-cli` is already installed, upgrade to the latest with:
 
     $ pip install --user vca-cli --upgrade
 
